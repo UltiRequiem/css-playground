@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "All my Notes about CSS",
   "main": "index.js",
+  "scripts": {
+    "start": "npx live-server  ./playground/",
+    "lint": "npx stylelint '**/**/*.css'"
+  },
   "repository": "git@github.com:UltiRequiem/css-master.git",
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
   "license": "MIT",

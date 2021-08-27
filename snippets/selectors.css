@@ -1,0 +1,9 @@
+/* The dot is for Classes */
+.paragraph {
+  color: rebeccapurple;
+}
+
+/* The hashtag is for ID */
+#text {
+  color: yellow;
+}

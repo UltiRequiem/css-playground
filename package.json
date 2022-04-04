@@ -4,8 +4,9 @@
   "description": "All my Notes about CSS",
   "main": "index.js",
   "scripts": {
-    "start": "npx live-server  ./playground/",
-    "lint": "npx stylelint '**/**/*.css'"
+    "start": "live-server  ./playground/",
+    "lint": "stylelint '**/**/*.css'",
+    "format":"prettier --write '**/**/*.{css,html}'"
   },
   "repository": "git@github.com:UltiRequiem/css-master.git",
   "author": "Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>",
@@ -13,6 +14,7 @@
   "private": false,
   "devDependencies": {
     "live-server": "^1.2.1",
+    "prettier": "^2.6.2",
     "stylelint": "^13.13.1",
     "stylelint-config-recommended": "^5.0.0",
     "stylelint-config-standard": "^22.0.0"
